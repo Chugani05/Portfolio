@@ -62,10 +62,11 @@
   }
 
   .icon-large {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .icon-spacing {
-    margin-right: 8px;
+    margin-right: 10px;
+    margin-left: 25px;
   }
 </style>
