@@ -4,5 +4,91 @@
     "projects": "Projects",
     "skills": "Skills",
     "experience": "Experience",
-    "contact": "Contact"
+    "contact": "Contact",
+
+    "about-page": {
+        "tag": "Web Developer & Student",
+        "p1": "Hello! My name is Rashi Chugani Narwani, and I am a passionate web developer currently studying at. I enjoy crafting user-friendly, visually appealing websites and applications, always striving to learn the latest technologies and best practices.",
+        "p2": "As a student, I am constantly expanding my skills in front-end and back-end development, including technologies like HTML, CSS, JavaScript, Django, Python and more.",
+        "p3": "When I'm not coding, I enjoy exploring design trends, collaborating on projects, and sharing knowledge with my peers.",
+        "p4": "Feel free to check out my work or connect with me to collaborate on exciting web development projects!"
+    },
+
+    "project-cards": [
+        {
+            "title": "Tribu",
+            "description": "Tribu is a social network allowing users to post echos (posts) and waves (comments) while maintaining their own personal profiles.",
+            "url": "https://github.com/Chugani05/Tribu.git"
+        },
+        {
+            "title": "JavaSpotify",
+            "description": "Spotify-like website that allows you to play three songs by clicking on their covers.",
+            "url": "https://github.com/Chugani05/JavaSpotify.git"
+        },
+        {
+            "title": "PokemonShop",
+            "description": "Pokémon store including wishlist, shopping cart, and user profile for a personalized shopping experience.",
+            "url": "https://github.com/Chugani05/PokemonShop.git"
+        },
+        {
+            "title": "ToyTravel",
+            "description": "An interactive web page created with HTML and Bootstrap that showcases Toy Travel, a fictional travel agency for toys. Users can explore unique travel packages, destinations, and services.",
+            "url": "https://github.com/mdiogc-JesusLugo2002-Chugani05/ToyTravel.git"
+        },
+        {
+            "title": "CheckMate",
+            "description": "Tasks app to create, organize and mark tasks as completed.",
+            "url": "https://github.com/Chugani05/CheckMate.git"
+        },
+        {
+            "title": "MyProjects",
+            "description": "This repository features a variety of projects developed to learn, practice, and explore different technologies, showcasing my progress and versatility as a developer.",
+            "url": "https://github.com/Chugani05/MyProjects.git"
+        }
+    ],
+
+    "skill-cards": [
+        {
+            "logo": "/src/assets/imgs/python.png",
+            "name": "Python",
+            "description": "",
+            "level": "3"
+        },
+        {
+            "logo": "/src/assets/imgs/bootstrap.png",
+            "name": "Bootstrap",
+            "description": "",
+            "level": "3"
+        },
+        {
+            "logo": "/src/assets/imgs/html.png",
+            "name": "HTML",
+            "description": "",
+            "level": "4"
+        },
+        {
+            "logo": "/src/assets/imgs/django.svg",
+            "name": "Django",
+            "description": "",
+            "level": "4"
+        },
+        {
+            "logo": "/src/assets/imgs/vue.svg",
+            "name": "Vue",
+            "description": "",
+            "level": "2"
+        },
+        {
+            "logo": "/src/assets/imgs/javascript.png",
+            "name": "JavaScript",
+            "description": "",
+            "level": "2"
+        },
+        {
+            "logo": "/src/assets/imgs/css.png",
+            "name": "CSS",
+            "description": "",
+            "level": "3"
+        }
+    ]
 }
