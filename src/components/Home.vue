@@ -5,15 +5,11 @@
 </script>
 
 <template>
-    <header class="bg-success text-white text-center py-4">
-      <h1 class="mb-0">Home</h1>
-    </header>
-
     <section class="container my-5">
         <div class="row">
             <div class="col-md-4 text-center mb-4">
                 <figure>
-                    <img src="../assets/imgs/book.jpg" class="img-fluid rounded-circle shadow" alt="A picture of my favorite hobby, reading." style="max-width: 250px;">
+                    <img src="../assets/imgs/girlcoding.jpg" class="img-fluid rounded-circle shadow" alt="A picture of my favorite hobby, reading." style="max-width: 300px;">
                 </figure>
             </div>
         
