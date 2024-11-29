@@ -21,10 +21,16 @@
                 <h2>{{ $t("home-page.h") }}</h2>
                 <p>{{ $t("home-page.p") }}</p>
 
-                <div class="icon-large icon-spacing">
-                  <a href="https://github.com/Chugani05"><i class="bi bi-github"></i></a>
-                  <i class="bi bi-linkedin"></i>
-                  <i class="bi bi-file-earmark"></i>
+                <div class="icon-container">
+                  <a href="https://github.com/Chugani05" target="_blank" class="icon-link" aria-label="GitHub">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/tu-perfil/" target="_blank" class="icon-link" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                  <a href="https://tu-cv.com" target="_blank" class="icon-link" aria-label="Curriculum Vitae">
+                    <i class="bi bi-file-earmark"></i>
+                  </a>
                 </div>
             </div>
         </div>
@@ -34,12 +40,25 @@
 </template>
 
 <style scoped>
-  .icon-large {
-    font-size: 30px;
-  }
+  .icon-container {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 0;
+    }
 
-  .icon-spacing {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
+    .icon-link {
+      text-decoration: none;
+      color: #333;
+      font-size: 2.25rem;
+      transition: color 0.3s ease, transform 0.3s ease;
+      outline: 3px solid #198754;
+      outline-offset: 5px;
+    }
+
+    .icon-link:hover {
+      color: #198754;
+      transform: scale(1.2);
+    }
 </style>
