@@ -19,7 +19,7 @@
       <ul class="nav nav-pills">
         <li class="nav-item d-flex align-items-center text-success">
           <i class="bi bi-house-door-fill icon-medium"></i>
-          <RouterLink to="/home" class="nav-link">{{ $t("home") }}</RouterLink>
+          <RouterLink to="/home" class="nav-link">Home</RouterLink>
         </li>
         <li class="nav-item d-flex align-items-center text-success">
           <i class="bi bi-star-fill icon-medium"></i>
@@ -47,8 +47,8 @@
             <i class="bi bi-translate icon-medium"></i>
           </button>
           <ul class="dropdown-menu">
-            <li><a @click="changeLanguage('en')">English</a></li>
-            <li><a  @click="changeLanguage('es')">Español</a></li>
+            <li class="dropdown-item"><a @click="changeLanguage('en')">English</a></li>
+            <li class="dropdown-item"><a  @click="changeLanguage('es')">Español</a></li>
           </ul>
         </div>
       </ul>
@@ -57,6 +57,10 @@
 </template>
 
 <style scoped>
+  .dropdown-item a {
+    cursor: pointer;
+  }
+
   .icon-medium {
     font-size: 22px;
   }

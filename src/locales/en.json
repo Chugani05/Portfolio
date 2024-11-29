@@ -1,23 +1,27 @@
 {
-    "home": "Home",
     "aboutme": "About Me",
     "projects": "Projects",
     "skills": "Skills",
     "experience": "Experience",
     "contact": "Contact",
 
+    "home-page": {
+        "h": "Hi there!",
+        "p": "I'm Rashi Chugani, A senior Web Developing student at I.E.S Puerto de la Cruz with an interest in Web development, UI/UX Design, Front-end developing and maybe Back-end developing"
+    },
+
     "about-page": {
         "tag": "Web Developer & Student",
         "p1": "Hello! My name is Rashi Chugani Narwani, and I am a passionate web developer currently studying at. I enjoy crafting user-friendly, visually appealing websites and applications, always striving to learn the latest technologies and best practices.",
         "p2": "As a student, I am constantly expanding my skills in front-end and back-end development, including technologies like HTML, CSS, JavaScript, Django, Python and more.",
-        "p3": "When I'm not coding, I enjoy exploring design trends, collaborating on projects, and sharing knowledge with my peers.",
+        "p3": "When I'm not coding, I enjoy exploring my creative side through reading, baking, building Legos, painting, and photography. Whether it's crafting delicious treats, capturing moments with my camera, or bringing designs to life with colors or bricks, these hobbies let me relax and express myself in unique ways.",
         "p4": "Feel free to check out my work or connect with me to collaborate on exciting web development projects!"
     },
 
     "project-cards": [
         {
             "title": "Tribu",
-            "description": "Tribu is a social network allowing users to post echos (posts) and waves (comments) while maintaining their own personal profiles.",
+            "description": "Tribu is a social network allowing users to post 'echos' (posts) and 'waves' (comments) while maintaining their own personal profiles.",
             "url": "https://github.com/Chugani05/Tribu.git"
         },
         {
@@ -76,7 +80,7 @@
             "logo": "/src/assets/imgs/vue.svg",
             "name": "Vue",
             "description": "",
-            "level": "2"
+            "level": "1"
         },
         {
             "logo": "/src/assets/imgs/javascript.png",
