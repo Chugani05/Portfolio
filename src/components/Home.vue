@@ -1,7 +1,7 @@
 <script setup>
-  import { useI18n } from "vue-i18n";
-  // Extraer locale y t desde useI18n
-  const { locale, t } = useI18n(); // Esta t es la que usamos en el Template como $t
+    import { useI18n } from "vue-i18n";
+
+    const { locale, t } = useI18n();
 </script>
 
 <template>

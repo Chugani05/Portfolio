@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps(['logo', 'name', 'description', 'level'])
+    const props = defineProps(['logo', 'name', 'description', 'level'])
 </script>
 
 <template>
