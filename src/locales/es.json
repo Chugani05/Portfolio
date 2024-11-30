@@ -56,43 +56,43 @@
         {
             "logo": "/src/assets/imgs/python.png",
             "name": "Python",
-            "description": "",
+            "description": "Lo he estado usando desde el inicio del curso de desarrollo de aplicaciones web. Es clave para la lógica de programación y el backend.",
             "level": "3"
         },
         {
             "logo": "/src/assets/imgs/bootstrap.png",
             "name": "Bootstrap",
-            "description": "",
+            "description": "Recientemente comenzamos a usarlo para diseñar páginas web de manera más rápida y eficaz.",
             "level": "3"
         },
         {
             "logo": "/src/assets/imgs/html.png",
             "name": "HTML",
-            "description": "",
+            "description": "Lo he estado utilizando desde el inicio del curso para estructurar y diseñar páginas web.",
             "level": "4"
         },
         {
             "logo": "/src/assets/imgs/django.svg",
             "name": "Django",
-            "description": "",
+            "description": "Aunque lo he usado mucho desde hace poco, es genial para crear aplicaciones web dinámicas.",
             "level": "4"
         },
         {
             "logo": "/src/assets/imgs/vue.svg",
             "name": "Vue",
-            "description": "",
+            "description": "Recién empezamos a utilizarlo como framework progresivo para aplicaciones web.",
             "level": "1"
         },
         {
             "logo": "/src/assets/imgs/javascript.png",
             "name": "JavaScript",
-            "description": "",
+            "description": "Es nuevo para mí y lo he usado poco hasta ahora, pero es útil para crear interactividad.",
             "level": "2"
         },
         {
             "logo": "/src/assets/imgs/css.png",
             "name": "CSS",
-            "description": "",
+            "description": "Lo he utilizado desde el inicio del curso para personalizar y estilizar páginas web.",
             "level": "3"
         }
     ]
