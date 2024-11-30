@@ -17,28 +17,40 @@
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item d-flex align-items-center text-success">
-          <i class="bi bi-house-door-fill icon-medium"></i>
+        <li class="nav-item d-flex align-items-center">
+          <RouterLink to="/home" class="text-success">
+            <i class="bi bi-house-door-fill icon-medium"></i>
+          </RouterLink>
           <RouterLink to="/home" class="nav-link">Home</RouterLink>
         </li>
-        <li class="nav-item d-flex align-items-center text-success">
-          <i class="bi bi-star-fill icon-medium"></i>
+        <li class="nav-item d-flex align-items-center">
+          <RouterLink to="/about" class="text-success">
+            <i class="bi bi-star-fill icon-medium"></i>
+          </RouterLink>
           <RouterLink to="/about" class="nav-link">{{ $t("aboutme") }}</RouterLink>
         </li>
-        <li class="nav-item d-flex align-items-center text-success">
-          <i class="bi bi-folder-fill icon-medium"></i>
+        <li class="nav-item d-flex align-items-center">
+          <RouterLink to="/projects" class="text-success">
+            <i class="bi bi-folder-fill icon-medium"></i>
+          </RouterLink>
           <RouterLink to="/projects" class="nav-link">{{ $t("projects") }}</RouterLink>
         </li>
-        <li class="nav-item d-flex align-items-center text-success">
-          <i class="bi bi-wrench icon-medium"></i>
+        <li class="nav-item d-flex align-items-center">
+          <RouterLink to="/skills" class="text-success">
+            <i class="bi bi-wrench icon-medium"></i>
+          </RouterLink>
           <RouterLink to="/skills" class="nav-link">{{ $t("skills") }}</RouterLink>
         </li>
-        <li class="nav-item d-flex align-items-center text-success">
-          <i class="bi bi-award-fill icon-medium"></i>
+        <li class="nav-item d-flex align-items-center">
+          <RouterLink to="/experience" class="text-success">
+            <i class="bi bi-award-fill icon-medium"></i>
+          </RouterLink>
           <RouterLink to="/experience" class="nav-link">{{ $t("experience") }}</RouterLink>
         </li>
-        <li class="nav-item d-flex align-items-center text-success">
-          <i class="bi bi-envelope-fill icon-medium"></i>
+        <li class="nav-item d-flex align-items-center">
+          <RouterLink to="/contact" class="text-success">
+            <i class="bi bi-envelope-fill icon-medium"></i>
+          </RouterLink>
           <RouterLink to="/contact" class="nav-link">{{ $t("contact") }}</RouterLink>
         </li>
 
