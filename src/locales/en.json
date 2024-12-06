@@ -103,8 +103,6 @@
     "contact-page": {
         "email": "Email address",
         "message": "Message",
-        "submit": "Send",
-        "error": "You cannot send a message with blank fields."
+        "submit": "Send"
     }
-
 }
