@@ -99,5 +99,12 @@
 
     "experience-page": {
         "download": "Descargar CV (PDF)"
+    },
+
+    "contact-page": {
+        "email": "Correo electronico",
+        "message": "Mensaje",
+        "submit": "Enviar",
+        "error": "No se puede enviar un mensaje con los campos en blanco."
     }
 }
